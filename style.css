@@ -1,0 +1,42 @@
+* {
+	background-color: #fff8f0;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+}
+.content {
+	display: flex;
+	background-color: #1e1e24;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	border-radius: 25px;
+}
+
+.text {
+	background-color: #111d4a;
+	color: #fff8f0;
+	padding: 10px;
+	border-radius: 25px;
+}
+
+.photoContainer {
+	background-color: #1e1e24;
+}
+
+#nextPhoto {
+	width: fit-content;
+}
+
+.hidden {
+	visibility: hidden;
+}
